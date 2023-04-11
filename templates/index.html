@@ -6,12 +6,12 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         
     <link href="static/styles.css" rel="stylesheet">
-    <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="D:/Programming/Projects/photo.jpg"
+    
+    <link 
+        rel="icon" 
+        href="static/img.png"
     >
+
     <title>URL Detection</title>
     
 </head>
@@ -22,7 +22,7 @@
     <div class="row">
         <div class="form col-md" id="form1">
             <h2>PHISHING URL DETECTION</h2>
-    
+            
             <br>
             <form action="/" method ="post">
                 <input type="text" class="form__input" name ='url' id="url" placeholder="Enter URL" required="" />
@@ -35,7 +35,7 @@
     <div class="col-md" id="form2">
         
         <br>
-        <h6 class = "right "><a href= {{ url }} target="_blank">{{ url }}</a></h6>
+        <h6 class = "right  "><a class="link-styling" href= {{ url }} target="_blank">{{ url }}</a></h6>
            
         <br>
         <h3 id="prediction"></h3>
