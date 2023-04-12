@@ -51,7 +51,7 @@ For training our model, we use the [Malicious URLs dataset](https://www.kaggle.c
 ## Usage
 
 
-## Contributors
+## Contributors (PhisShield)
 
 1. [Saumit Dinesan](https://github.com/justsaumit)
 2. [Shashwat Sarkar](https://github.com/shshwtsrkr)
