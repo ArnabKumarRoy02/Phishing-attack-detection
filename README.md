@@ -1,6 +1,6 @@
 # Kavach Hackathon 2023
 This project is our submission for Kavach Hackathon 2023 on "Phishing Detection Solution", problem statement ID (KVH-004).<br />
-
+![image](https://github.com/shshwtsrkr/Phishing-attack-detection/blob/master/images/kavach-logo.png)
 ## Problem Statement 
 Design and develop a technological solution for AI-enabled Phishing Links Detection and Alert System. The solution should be able to identify the source of phishing attacks in web pages, email apps, social media, instant messenger apps, text messages etc. The solution may be in the form of a desktop/mobile application or a web browser plugin.
 
@@ -18,3 +18,10 @@ Phishing is one of the most common types of cyberattacks that take placeevery ye
 - **94% of malware** is delivered **via email**.
 
 Therefore, a solution to detect such link phishing links for the user beforehand is much needed.
+
+## Our Approach
+Since, the increase in phishing attacks are increasing day-by-day manual identification and laerting of phishin links is not feasible.
+Therefore, we employ machine learning techniques to automate this process. 
+
+### 1. Training the model
+For training our model, we use the [Malicious URLs dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset)
