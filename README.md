@@ -37,11 +37,10 @@ For training our model, we use the [Malicious URLs dataset](https://www.kaggle.c
     - Naive Bayes
     - Decision Tree
     - Random Forest
-    - Gradient Boosting
+    - **Gradient Boosting**
     - Catboost
-    - **Xgboost**
     - Multilayer Perceptrons<br /><br />
-   Based on the latency of the model response as well as accuracy XGBoost demonstrated to strike the best balance. Thus, being the model of our choice.
+   Based on the latency of the model response as well as accuracy Gradient Boosting demonstrated to strike the best balance. Thus, being the model of our choice.
 
 ### 2. Building the extension
 ### 3. Integrating the model with the extension
