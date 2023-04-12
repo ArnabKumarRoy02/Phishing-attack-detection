@@ -1,6 +1,7 @@
 # Kavach Hackathon 2023
-This project is our submission for Kavach Hackathon 2023 on "Phishing Detection Solution", problem statement ID (KVH-004).<br />
-![image](https://github.com/shshwtsrkr/Phishing-attack-detection/blob/master/images/kavach-logo.png)
+This project is our submission for Kavach Hackathon 2023 on ***Phishing Detection Solution***, problem statement ID (KVH-004).<br />
+<img src="https://github.com/shshwtsrkr/Phishing-attack-detection/blob/master/images/kavach-logo.png"  width="400" height="250" style="float: right;">
+
 ## Problem Statement 
 Design and develop a technological solution for AI-enabled Phishing Links Detection and Alert System. The solution should be able to identify the source of phishing attacks in web pages, email apps, social media, instant messenger apps, text messages etc. The solution may be in the form of a desktop/mobile application or a web browser plugin.
 
@@ -24,4 +25,37 @@ Since, the increase in phishing attacks are increasing day-by-day manual identif
 Therefore, we employ machine learning techniques to automate this process. 
 
 ### 1. Training the model
-For training our model, we use the [Malicious URLs dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset)
+For training our model, we use the [Malicious URLs dataset](https://www.kaggle.com/eswarchandt/phishing-website-detector)
+- **<ins>Loading the data</ins>** - To work with the data.
+- **<ins>Familiarizing with data & EDA (Exploratory Data Analysis)</ins>** - We perform EDA to understand the underlying the structure of the data.
+- **<ins>Visualizing the data</ins>** - We perform certain data visualization techniques to visualize the data to realize the important correlations between different features.
+- **<ins>Building and training the model</ins>** - We trained the following models :
+    - Logistic Regression
+    - K-Nearest Neighbors
+    - Support Vector Clasifier
+    - Naive Bayes
+    - Decision Tree
+    - Random Forest
+    - Gradient Boosting
+    - Catboost
+    - **Xgboost**
+    - Multilayer Perceptrons<br /><br />
+   Based on the latency of the model response as well as accuracy XGBoost demonstrated to strike the best balance. Thus, being the model of our choice.
+
+### 2. Building the extension
+### 3. Integrating the model with the extension
+- The model is saved as a pickle.
+- This pickle is served in the Flask as a micro backend framework.
+- The flask server then exposes the model so that it can be fed with input, while also enabling us to provide the predicted output into our extension.
+
+## Usage
+
+
+## Contributors
+
+1. [Saumit Dinesan](https://github.com/justsaumit)
+2. [Shashwat Sarkar](https://github.com/shshwtsrkr)
+3. [Arnab Kumar Roy](https://github.com/ArnabKumarRoy02)
+4. [Mayank Kumar Jha](https://github.com/mayankxjha)
+5. [Pinjana Biswas](https://github.com/Pinjana)
+6. [Phirat Passi](https://github.com/Phirat-Passi)
