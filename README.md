@@ -25,6 +25,7 @@ Since, the increase in phishing attacks are increasing day-by-day manual identif
 Therefore, we employ machine learning techniques to automate this process. 
 
 ### 1. Training the model
+![Model Architecture](images/mode-arch.png)
 For training our model, we use the [Malicious URLs dataset](https://www.kaggle.com/eswarchandt/phishing-website-detector)
 - **<ins>Loading the data</ins>** - To work with the data.
 - **<ins>Familiarizing with data & EDA (Exploratory Data Analysis)</ins>** - We perform EDA to understand the underlying the structure of the data.
