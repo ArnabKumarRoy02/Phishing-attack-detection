@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+*{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+body{
+  margin: 0;
+  background: #ffffff;
+  border: #2a94ee 2px solid;
+}
+.container {
+  width: 400px;
+  background-color: #ffffff;
+  color: #000000;
+  /*border: #2a94ee 2px solid;*/
+  box-sizing: border-box;
+}
+
+.title {
+  /*width: 50%;*/
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-bottom: 2px solid #fc7f01;
+}
+
+.textBox {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textBox:focus {
+  outline: 0;
+  border-color: #038dfa;
+}
+
+.links {
+  margin: 5px 5px;
+  padding: 3px;
+  width: 80%;
+  /*overflow: hidden;*/
+}
+
+.link {
+  display: flex;
+  width: 100%;
+  min-height: 10%;
+  max-height: 100%;
+  border:  2px #1486f6 solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 7px;
+}
+
+.link-title {
+  min-width: 80%;
+  word-wrap: break-word;
+  padding-left: 2px;
+}
+.link-controls img {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.link-controls {
+  margin-left: 75px;
+  /*float: right;*/
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 16px;
+  height: 16px;
+  /*margin: 8px;*/
+  border-radius: 50%;
+  border: 3px solid #000000;
+  border-color: #000000 transparent #000000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

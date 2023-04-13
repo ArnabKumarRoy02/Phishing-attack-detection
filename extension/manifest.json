@@ -1,0 +1,45 @@
+{
+  "name": "PhisShield",
+  "version": "0.1.0",
+  "description": "Fishing for phising links on your mails",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": ["<all_urls>"]
+  ,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*",
+        "https://www.mail.google.com/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/bookmark.png",
+        "assets/play.png",
+        "assets/delete.png",
+        "assets/save.png"
+      ],
+      "matches": [
+        "https://mail.google.com/*",
+        "https://www.mail.google.com/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": "assets/img.png",
+    "default_title": "My YT Bookmarks",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
